@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../Index.html">Inicio</a></li>
+                <li><a href="./Shop.html">Tienda</a></li>
+                <li><a href="./Nosotros.html">Nosotros</a></li>
+                <li><a href="./FAQ.html">FAQs</a></li>
+                <li><a href="./Contacto.html">Contacto</a></li>
+            </ul>
+            <div> <a class="logo_dt"></a>
+                <img src="../Assets/LogoDT3.png" alt="" width="70" height="55">
+            </div>
+        </nav>
+        <form action="submit-form.php" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+            
+                <button type="submit">Enviar</button>
+        </form>
+        
+        
+        </header>
+    
+</body>
+</html>
